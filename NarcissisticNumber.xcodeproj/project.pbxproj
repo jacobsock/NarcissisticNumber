@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABD1151F29CE1BC200D65534 /* NarcissisticNumberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1151E29CE1BC200D65534 /* NarcissisticNumberApp.swift */; };
+		ABD1152129CE1BC200D65534 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1152029CE1BC200D65534 /* ContentView.swift */; };
+		ABD1152329CE1BC400D65534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD1152229CE1BC400D65534 /* Assets.xcassets */; };
+		ABD1152629CE1BC400D65534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD1152529CE1BC400D65534 /* Preview Assets.xcassets */; };
+		ABD1153029CE1BC500D65534 /* NarcissisticNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1152F29CE1BC500D65534 /* NarcissisticNumberTests.swift */; };
+		ABD1153A29CE1BC500D65534 /* NarcissisticNumberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1153929CE1BC500D65534 /* NarcissisticNumberUITests.swift */; };
+		ABD1153C29CE1BC500D65534 /* NarcissisticNumberUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD1153B29CE1BC500D65534 /* NarcissisticNumberUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABD1152C29CE1BC500D65534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD1151329CE1BC200D65534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD1151A29CE1BC200D65534;
+			remoteInfo = NarcissisticNumber;
+		};
+		ABD1153629CE1BC500D65534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD1151329CE1BC200D65534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD1151A29CE1BC200D65534;
+			remoteInfo = NarcissisticNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABD1151B29CE1BC200D65534 /* NarcissisticNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NarcissisticNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD1151E29CE1BC200D65534 /* NarcissisticNumberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarcissisticNumberApp.swift; sourceTree = "<group>"; };
+		ABD1152029CE1BC200D65534 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABD1152229CE1BC400D65534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABD1152529CE1BC400D65534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABD1152B29CE1BC500D65534 /* NarcissisticNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NarcissisticNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD1152F29CE1BC500D65534 /* NarcissisticNumberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarcissisticNumberTests.swift; sourceTree = "<group>"; };
+		ABD1153529CE1BC500D65534 /* NarcissisticNumberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NarcissisticNumberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD1153929CE1BC500D65534 /* NarcissisticNumberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarcissisticNumberUITests.swift; sourceTree = "<group>"; };
+		ABD1153B29CE1BC500D65534 /* NarcissisticNumberUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NarcissisticNumberUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD1151829CE1BC200D65534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1152829CE1BC500D65534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1153229CE1BC500D65534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD1151229CE1BC200D65534 = {
+			isa = PBXGroup;
+			children = (
+				ABD1151D29CE1BC200D65534 /* NarcissisticNumber */,
+				ABD1152E29CE1BC500D65534 /* NarcissisticNumberTests */,
+				ABD1153829CE1BC500D65534 /* NarcissisticNumberUITests */,
+				ABD1151C29CE1BC200D65534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD1151C29CE1BC200D65534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD1151B29CE1BC200D65534 /* NarcissisticNumber.app */,
+				ABD1152B29CE1BC500D65534 /* NarcissisticNumberTests.xctest */,
+				ABD1153529CE1BC500D65534 /* NarcissisticNumberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD1151D29CE1BC200D65534 /* NarcissisticNumber */ = {
+			isa = PBXGroup;
+			children = (
+				ABD1151E29CE1BC200D65534 /* NarcissisticNumberApp.swift */,
+				ABD1152029CE1BC200D65534 /* ContentView.swift */,
+				ABD1152229CE1BC400D65534 /* Assets.xcassets */,
+				ABD1152429CE1BC400D65534 /* Preview Content */,
+			);
+			path = NarcissisticNumber;
+			sourceTree = "<group>";
+		};
+		ABD1152429CE1BC400D65534 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABD1152529CE1BC400D65534 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABD1152E29CE1BC500D65534 /* NarcissisticNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD1152F29CE1BC500D65534 /* NarcissisticNumberTests.swift */,
+			);
+			path = NarcissisticNumberTests;
+			sourceTree = "<group>";
+		};
+		ABD1153829CE1BC500D65534 /* NarcissisticNumberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD1153929CE1BC500D65534 /* NarcissisticNumberUITests.swift */,
+				ABD1153B29CE1BC500D65534 /* NarcissisticNumberUITestsLaunchTests.swift */,
+			);
+			path = NarcissisticNumberUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD1151A29CE1BC200D65534 /* NarcissisticNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD1153F29CE1BC500D65534 /* Build configuration list for PBXNativeTarget "NarcissisticNumber" */;
+			buildPhases = (
+				ABD1151729CE1BC200D65534 /* Sources */,
+				ABD1151829CE1BC200D65534 /* Frameworks */,
+				ABD1151929CE1BC200D65534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NarcissisticNumber;
+			productName = NarcissisticNumber;
+			productReference = ABD1151B29CE1BC200D65534 /* NarcissisticNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABD1152A29CE1BC500D65534 /* NarcissisticNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD1154229CE1BC500D65534 /* Build configuration list for PBXNativeTarget "NarcissisticNumberTests" */;
+			buildPhases = (
+				ABD1152729CE1BC500D65534 /* Sources */,
+				ABD1152829CE1BC500D65534 /* Frameworks */,
+				ABD1152929CE1BC500D65534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD1152D29CE1BC500D65534 /* PBXTargetDependency */,
+			);
+			name = NarcissisticNumberTests;
+			productName = NarcissisticNumberTests;
+			productReference = ABD1152B29CE1BC500D65534 /* NarcissisticNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABD1153429CE1BC500D65534 /* NarcissisticNumberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD1154529CE1BC500D65534 /* Build configuration list for PBXNativeTarget "NarcissisticNumberUITests" */;
+			buildPhases = (
+				ABD1153129CE1BC500D65534 /* Sources */,
+				ABD1153229CE1BC500D65534 /* Frameworks */,
+				ABD1153329CE1BC500D65534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD1153729CE1BC500D65534 /* PBXTargetDependency */,
+			);
+			name = NarcissisticNumberUITests;
+			productName = NarcissisticNumberUITests;
+			productReference = ABD1153529CE1BC500D65534 /* NarcissisticNumberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD1151329CE1BC200D65534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ABD1151A29CE1BC200D65534 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ABD1152A29CE1BC500D65534 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABD1151A29CE1BC200D65534;
+					};
+					ABD1153429CE1BC500D65534 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABD1151A29CE1BC200D65534;
+					};
+				};
+			};
+			buildConfigurationList = ABD1151629CE1BC200D65534 /* Build configuration list for PBXProject "NarcissisticNumber" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABD1151229CE1BC200D65534;
+			productRefGroup = ABD1151C29CE1BC200D65534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD1151A29CE1BC200D65534 /* NarcissisticNumber */,
+				ABD1152A29CE1BC500D65534 /* NarcissisticNumberTests */,
+				ABD1153429CE1BC500D65534 /* NarcissisticNumberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD1151929CE1BC200D65534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD1152629CE1BC400D65534 /* Preview Assets.xcassets in Resources */,
+				ABD1152329CE1BC400D65534 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1152929CE1BC500D65534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1153329CE1BC500D65534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD1151729CE1BC200D65534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD1152129CE1BC200D65534 /* ContentView.swift in Sources */,
+				ABD1151F29CE1BC200D65534 /* NarcissisticNumberApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1152729CE1BC500D65534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD1153029CE1BC500D65534 /* NarcissisticNumberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD1153129CE1BC500D65534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD1153C29CE1BC500D65534 /* NarcissisticNumberUITestsLaunchTests.swift in Sources */,
+				ABD1153A29CE1BC500D65534 /* NarcissisticNumberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD1152D29CE1BC500D65534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD1151A29CE1BC200D65534 /* NarcissisticNumber */;
+			targetProxy = ABD1152C29CE1BC500D65534 /* PBXContainerItemProxy */;
+		};
+		ABD1153729CE1BC500D65534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD1151A29CE1BC200D65534 /* NarcissisticNumber */;
+			targetProxy = ABD1153629CE1BC500D65534 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABD1153D29CE1BC500D65534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABD1153E29CE1BC500D65534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABD1154029CE1BC500D65534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NarcissisticNumber/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.NarcissisticNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABD1154129CE1BC500D65534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NarcissisticNumber/Preview Content\"";
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.NarcissisticNumber;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABD1154329CE1BC500D65534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.NarcissisticNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NarcissisticNumber.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NarcissisticNumber";
+			};
+			name = Debug;
+		};
+		ABD1154429CE1BC500D65534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.NarcissisticNumberTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NarcissisticNumber.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NarcissisticNumber";
+			};
+			name = Release;
+		};
+		ABD1154629CE1BC500D65534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.NarcissisticNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NarcissisticNumber;
+			};
+			name = Debug;
+		};
+		ABD1154729CE1BC500D65534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DH995SKH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jsock.NarcissisticNumberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NarcissisticNumber;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD1151629CE1BC200D65534 /* Build configuration list for PBXProject "NarcissisticNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD1153D29CE1BC500D65534 /* Debug */,
+				ABD1153E29CE1BC500D65534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD1153F29CE1BC500D65534 /* Build configuration list for PBXNativeTarget "NarcissisticNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD1154029CE1BC500D65534 /* Debug */,
+				ABD1154129CE1BC500D65534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD1154229CE1BC500D65534 /* Build configuration list for PBXNativeTarget "NarcissisticNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD1154329CE1BC500D65534 /* Debug */,
+				ABD1154429CE1BC500D65534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD1154529CE1BC500D65534 /* Build configuration list for PBXNativeTarget "NarcissisticNumberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD1154629CE1BC500D65534 /* Debug */,
+				ABD1154729CE1BC500D65534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD1151329CE1BC200D65534 /* Project object */;
+}
